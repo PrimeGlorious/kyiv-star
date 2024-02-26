@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- fonts -->
+    <link href="" rel="stylesheet" />
+
+    <!-- normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+
+    <!-- main styles -->
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- favicon -->
+    <link rel="icon" type="image/svg+xml" href="./public/favicon-mimino.svg" />
+
+    <title>Mimino</title>
+  </head>
+  <body class="hotel">
+    <load src="partials/header.html" />
+
+    <main>
+      <load src="partials/pages/hotel-page/hero-hotel.html" />
+      <load src="partials/pages/hotel-page/double-luxury-room.html" />
+      <load src="partials/pages/hotel-page/triple-room.html" />
+      <load src="partials/pages/hotel-page/four-seater-room.html" />
+    </main>
+    <load src="partials/footer.html" />
+
+    <!-- modal hotel-page -->
+
+    <div class="backdrop-hotel" data-hotel-modal>
+      <load src="partials/book-room-modal.html" />
+    </div>
+    <div class="backdrop-hotel-second" data-hotel-modal-prices>
+      <load src="partials/prices-room-modal.html" />
+    </div>
+
+    <!-- hotel js -->
+    <script type="module" src="/hotel.js"></script>
+  </body>
+</html>

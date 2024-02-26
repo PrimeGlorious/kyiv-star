@@ -1,0 +1,133 @@
+.location {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.location-title {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: var(--main-black-color);
+}
+
+.location-map {
+  width: 335px;
+  height: 384px;
+  margin-bottom: 32px;
+  mix-blend-mode: luminosity;
+  box-shadow: -14px 24px 68px -16px rgba(0, 0, 0, 0.12);
+}
+
+.location-top-text {
+  margin-bottom: 28px;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  color: var(--main-black-color);
+}
+.location-bottom-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: var(--main-black-color);
+}
+
+.location-list :not(:last-child) {
+  margin-bottom: 4px;
+}
+
+.location-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: var(--main-black-color);
+}
+@media screen and (max-width: 767px) {
+  .location-title {
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .location {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .location-title {
+    font-size: 68px;
+  }
+
+  .location-map {
+    width: 704px;
+    height: 576px;
+  }
+
+  .location-top-text {
+    margin-bottom: 0;
+  }
+
+  .location-address {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .location-link {
+    font-size: 18px;
+    line-height: 1.33;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .location-title {
+    margin-bottom: 40px;
+  }
+  .location-bottom-text {
+    margin-bottom: 12px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .location {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .location-container {
+    position: relative;
+  }
+
+  .location-title {
+    position: absolute;
+    right: 380px;
+  }
+
+  .location-map {
+    width: 640px;
+    height: 524px;
+    margin-left: 32px;
+    margin-bottom: 0;
+  }
+
+  .location-tel-container {
+    display: flex;
+    gap: 12px;
+  }
+
+  .location-address {
+    position: absolute;
+    right: 215px;
+    gap: 70px;
+    bottom: 0;
+  }
+
+  .location-bottom-text {
+    font-weight: 700;
+  }
+}

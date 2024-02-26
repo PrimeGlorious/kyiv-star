@@ -1,0 +1,83 @@
+.hero-room {
+  padding-top: 118px;
+  padding-bottom: 64px;
+}
+.hero-room-container {
+  position: relative;
+}
+.hero-room-title {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: var(--main-black-color);
+  margin-bottom: 24px;
+  max-width: 270px;
+}
+
+.hero-room-btn {
+  margin-bottom: 40px;
+  color: var(--main-black-color);
+  transition: color var(--cubic-bezier), background-color var(--cubic-bezier),
+    border-color var(--cubic-bezier);
+}
+
+.hero-room-btn:is(:hover, :focus) {
+  color: var(--main-white-color);
+  background-color: var(--main-black-color);
+  border-color: var(--main-black-color);
+}
+
+.hero-room-text {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: 0.05em;
+  color: var(--main-black-color);
+  max-width: 289px;
+}
+
+@media screen and (max-width: 767px) {
+  .hero-room-img {
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-room {
+    padding-bottom: 120px;
+  }
+  .hero-room-title {
+    font-size: 60px;
+    margin-bottom: 18px;
+    max-width: 407px;
+  }
+  .hero-room-btn {
+    margin-bottom: 28px;
+  }
+}
+@media screen and(min-width: 768px) and (max-width: 1439px) {
+  .hero-room-img {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-room-title {
+    font-size: 80px;
+    margin-bottom: 32px;
+    max-width: 590px;
+  }
+  .hero-room {
+    padding-top: 247px;
+    padding-bottom: 48px;
+  }
+  .hero-room-img {
+    position: absolute;
+    margin-top: 0;
+    left: 736px;
+    top: -139px;
+  }
+  .hero-room-btn {
+    margin-bottom: 169px;
+  }
+}

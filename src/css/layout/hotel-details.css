@@ -1,0 +1,149 @@
+.hotel-details {
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  background-color: var(--main-black-color);
+}
+
+.hotel-details-title {
+  color: var(--main-white-color);
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.hotel-details-text {
+  max-width: 335px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: var(--main-white-color);
+}
+
+.hotel-details-btn-list-tablet {
+  display: none;
+}
+
+.hotel-details-img-wrap {
+  display: flex;
+  gap: 20px;
+}
+
+.hotel-hidden-wrap {
+  display: none;
+}
+
+.hotel-details-btn-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.hotel-details-btn,
+.hotel-details-link {
+  transition: background-color var(--cubic-bezier), color var(--cubic-bezier),
+    border-color var(--cubic-bezier);
+}
+
+.hotel-details-btn:is(:hover, :focus),
+.hotel-details-link:is(:hover, :focus) {
+  color: var(--main-black-color);
+  background-color: var(--main-white-color);
+  border-color: var(--main-white-color);
+}
+
+@media screen and (max-width: 767px) {
+  .hotel-details-title {
+    margin-bottom: 32px;
+  }
+  .hotel-details-static {
+    margin-bottom: 27px;
+  }
+  .hotel-details-title-wrap {
+    margin-bottom: 33px;
+  }
+  .hotel-details-list {
+    margin-bottom: 72px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hotel-details {
+    padding-top: 44px;
+    padding-bottom: 44px;
+  }
+
+  .hotel-details-text {
+    max-width: 362px;
+  }
+
+  .hotel-hidden-wrap {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .hotel-details-title-wrap {
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+    column-gap: 32px;
+  }
+
+  .hotel-details-title {
+    font-size: 68px;
+  }
+
+  .hotel-details-list {
+    display: flex;
+    justify-content: center;
+    column-gap: 16px;
+  }
+
+  .hotel-details-img-wrap {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+  }
+}
+@media screen and (max-width: 1439px) {
+  .hotel-details-list {
+    margin-bottom: 40px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hotel-details {
+    padding-bottom: 60px;
+  }
+
+  .hotel-details-container {
+    position: relative;
+  }
+
+  .hotel-details-wrap {
+    display: flex;
+    align-items: center;
+    margin-bottom: 87px;
+  }
+
+  .hotel-details-title-wrap {
+    margin-bottom: 87px;
+  }
+
+  .hotel-details-btn-list {
+    position: absolute;
+    top: 0;
+    right: 32px;
+  }
+
+  .hotel-details-img-wrap {
+    row-gap: 28px;
+  }
+
+  .hotel-details-list {
+    column-gap: 32px;
+  }
+}

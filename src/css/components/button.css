@@ -1,0 +1,26 @@
+.btn {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  display: inline-block;
+  border: 0.8px solid;
+  border-radius: 32px;
+  text-transform: uppercase;
+  padding: 8px 18px;
+  background-color: transparent;
+  color: var(--main-white-color);
+}
+
+@media screen and (min-width: 768px) {
+  .btn {
+    padding: 8px 24px;
+    line-height: 1.71;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .btn {
+    padding: 9px 24px;
+    font-size: 18px;
+    line-height: 1.33;
+  }
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- fonts -->
+    <link href="" rel="stylesheet" />
+
+    <!-- normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+
+    <!-- main styles -->
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- favicon -->
+    <link rel="icon" type="image/svg+xml" href="./public/favicon-mimino.svg" />
+
+    <title></title>
+  </head>
+  <body class="restaurant">
+    <load src="partials/header.html" />
+
+    <main>
+      <load src="partials/pages/restaurant-page/hero-restaurant.html" />
+      <load src="partials/pages/restaurant-page/about-kitchen.html" />
+      <load src="partials/pages/restaurant-page/restaurant-menu.html" />
+    </main>
+
+    <load src="partials/footer.html" />
+
+    <!-- modal restaurant-page -->
+
+    <div class="backdrop-restaurant" data-restaurant-modal>
+      <load src="partials/book-table-modal.html" />
+    </div>
+
+    <!-- restaurant js -->
+    <script type="module" src="/restaurant.js"></script>
+  </body>
+</html>

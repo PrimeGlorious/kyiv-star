@@ -1,0 +1,38 @@
+<div class="prices-room-modal">
+  <button
+    class="prices-room-modal-close-btn"
+    data-hotel-modal-prices-close
+    data-room-modal-prices-close
+  >
+    <svg class="prices-room-modal-close-icon" width="28" height="28">
+      <use href="/images/sprite/icons.svg#icon-close"></use>
+    </svg>
+  </button>
+  <p class="prices-room-modal-title">Prices per room</p>
+  <p class="prices-room-modal-desc">Double suite</p>
+  <form class="prices-room-modal-form">
+    <label class="prices-room-modal-form-fieled">
+      <select class="prices-room-modal-form-select" name="number of nights">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+      <span class="prices-room-modal-form-input-desc">Number of nights</span>
+    </label>
+    <label class="prices-room-modal-form-fieled">
+      <input
+        class="prices-room-modal-form-input"
+        name="check_in_date"
+        type="date"
+        required
+        value="2023-03-02"
+      />
+      <span class="prices-room-modal-form-input-desc">Check-in date</span>
+    </label>
+    <button class="reservation-submit-btn" type="submit">
+      make a reservation
+    </button>
+  </form>
+</div>

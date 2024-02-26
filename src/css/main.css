@@ -1,0 +1,54 @@
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+
+/* utils */
+@import url('./utils/variables.css');
+@import url('./utils/hidden.css');
+
+/* fonts */
+@import url('./fonts.css');
+
+/* base */
+@import url('./base/common.css');
+@import url('./base/reset.css');
+
+/* components */
+@import url('./components/container.css');
+@import url('./components/button.css');
+@import url('./components/italic.css');
+@import url('./components/backdrops-modal.css');
+
+/* layout */
+
+/* main page */
+@import url('./layout/header.css');
+@import url('./layout/hero-main.css');
+@import url('./layout/about-complex.css');
+@import url('./layout/restaurant-details.css');
+@import url('./layout/welcome-complex.css');
+@import url('./layout/hotel-details.css');
+@import url('./layout/location-contacts.css');
+@import url('./layout/footer.css');
+
+/* hotel-page */
+@import url('./layout/pages/hotel-page/hero-hotel.css');
+@import url('./layout/pages/hotel-page/double-luxury-room.css');
+@import url('./layout/pages/hotel-page/triple-room.css');
+@import url('./layout/pages/hotel-page/four-seater-room.css');
+
+/* restaurant-page */
+@import url('./layout/pages/restaurant-page/hero-restaurant.css');
+@import url('./layout/pages/restaurant-page/about-kitchen.css');
+@import url('./layout/pages/restaurant-page/restaurant-menu.css');
+
+/* room-page */
+@import url('./layout/pages/room-page/hero-room.css');
+@import url('./layout/pages/room-page/amenities.css');
+
+/* modal */
+@import url('./layout/book-room-modal.css');
+@import url('./layout/book-table-modal.css');
+@import url('./layout/prices-room-modal.css');

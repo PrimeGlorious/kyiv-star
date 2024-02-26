@@ -1,0 +1,59 @@
+<div class="table-modal">
+  <button
+    class="table-modal-close-btn"
+    data-restaurant-modal-close
+    data-main-modal-table-close
+  >
+    <svg class="table-modal-close-icon" width="28" height="28">
+      <use href="/images/sprite/icons.svg#icon-close"></use>
+    </svg>
+  </button>
+  <p class="table-modal-title">book <span class="italic">a table</span></p>
+  <form class="table-modal-form">
+    <label class="table-modal-form-fieled">
+      <input
+        name="user_name"
+        type="text"
+        class="table-modal-form-input name-input"
+        pattern="[a-zA-zа-яА-ЯіІїЇ]+"
+        required
+        minlength="2"
+        placeholder="your name"
+      />
+      <span class="table-modal-form-input-desc"
+        >who should book a table for?</span
+      >
+    </label>
+    <label class="table-modal-form-fieled">
+      <select class="table-modal-form-select" name="number of people">
+        <option value="">number of people</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+    </label>
+    <label class="table-modal-form-fieled">
+      <select class="table-modal-form-select" name="number of people">
+        <option value="">today</option>
+        <option value="">tomorrow</option>
+        <option value="">another day</option>
+      </select>
+      <span class="table-modal-form-input-desc">what date to book?</span>
+    </label>
+    <label class="book-table-modal-form-fieled">
+      <input
+        name="user_phone"
+        type="tel"
+        class="table-modal-form-input"
+        required
+        pattern="[0-9]+"
+        placeholder="+38 ()"
+      />
+    </label>
+    <button class="reservation-submit-btn" type="submit">
+      make a reservation
+    </button>
+  </form>
+</div>

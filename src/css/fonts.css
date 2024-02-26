@@ -1,0 +1,33 @@
+/* fonts */
+@font-face {
+  font-family: 'dmsans';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url(../fonts/dmsans-regular.woff) format('woff'),
+    url(../fonts/dmsans-regular.) format('ttf');
+}
+@font-face {
+  font-family: 'dmsans';
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url(../fonts/dmsans-medium.woff) format('woff'),
+    url(../fonts/dmsans-medium.) format('ttf');
+}
+@font-face {
+  font-family: 'dmsans';
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url(../fonts/dmsans-bold.woff) format('woff'),
+    url(../fonts/dmsans-bold.) format('ttf');
+}
+@font-face {
+  font-family: 'geometria';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url(../fonts/geometria-regular.woff) format('woff'),
+    url(../fonts/geometria-regular.) format('ttf');
+}

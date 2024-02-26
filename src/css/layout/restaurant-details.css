@@ -1,0 +1,119 @@
+.restaurants-details {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.restaurants-details-wrap {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.restaurants-details-title {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: var(--main-black-color);
+}
+.restaurants-details-text {
+  max-width: 221px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: var(--main-black-color);
+}
+
+.restaurants-details-img-list {
+  display: flex;
+}
+
+.restaurants-details-img-item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.restaurants-details-img-item.desctop {
+  display: none;
+}
+
+.restaurants-btn-list {
+  display: flex;
+  gap: 12px;
+}
+
+.restaurants-details-link,
+.restaurants-details-btn {
+  color: var(--main-black-color);
+  transition: background-color var(--cubic-bezier), color var(--cubic-bezier),
+    border-color var(--cubic-bezier);
+}
+
+.restaurants-details-link:is(:hover, :focus),
+.restaurants-details-btn:is(:hover, :focus) {
+  color: var(--main-white-color);
+  background-color: var(--main-black-color);
+  border-color: var(--main-black-color);
+}
+
+@media screen and (max-width: 320px) {
+  .restaurants-btn-list {
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .restaurants-details-wrap {
+    flex-direction: column;
+  }
+  .restaurants-details-img-list {
+    margin-bottom: 82px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .restaurants-details {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .restaurants-details-wrap {
+    gap: 32px;
+    margin-bottom: 80px;
+    align-items: center;
+  }
+  .restaurants-details-img-item:not(:last-child) {
+    margin-right: 32px;
+  }
+  .restaurants-btn-list {
+    gap: 14px;
+  }
+  .restaurants-details-title {
+    font-size: 68px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .restaurants-details-img-list {
+    margin-bottom: 108px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .restaurants-details {
+    padding-top: 44px;
+    padding-bottom: 113px;
+  }
+  .restaurants-details-container {
+    position: relative;
+  }
+  .restaurants-details-title {
+    font-size: 68px;
+  }
+  .restaurants-btn-list {
+    position: absolute;
+    right: 32px;
+    top: 0;
+  }
+  .restaurants-details-img-item.desctop {
+    display: block;
+  }
+}

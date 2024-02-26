@@ -1,0 +1,172 @@
+.prices-room-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 337px;
+  min-height: 528px;
+  background-color: var(--main-black-color);
+  border-radius: 2px;
+  padding-top: 24px;
+  padding-right: 24px;
+  padding-bottom: 40px;
+  padding-left: 24px;
+}
+
+.prices-room-modal-close-btn {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 14px;
+  right: 14px;
+}
+.prices-room-modal-close-icon {
+  justify-content: center;
+  align-items: center;
+  stroke: var(--main-white-color);
+  cursor: pointer;
+}
+.prices-room-modal-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.36;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--main-white-color);
+  margin-bottom: 40px;
+}
+.prices-room-modal-desc {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--main-white-color);
+  margin-bottom: 24px;
+}
+.prices-room-modal-form {
+  display: flex;
+  flex-direction: column;
+}
+.prices-room-modal-form-fieled {
+  flex-basis: 100%;
+}
+.prices-room-modal-form-fieled:not(:last-child) {
+  margin-bottom: 32px;
+}
+.prices-room-modal-form-input {
+  width: 100%;
+  background-color: transparent;
+  border: 0.8px solid rgba(247, 247, 247, 0.2);
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  padding-bottom: 18px;
+  margin-bottom: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: var(--main-white-color);
+}
+.name-input {
+  text-transform: capitalize;
+}
+.prices-room-modal-form-input:focus {
+  outline: none;
+}
+.prices-room-modal-form-input::placeholder {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--main-white-color);
+}
+.prices-room-modal-form-input-desc {
+  font-size: 8px;
+  line-height: 1.5;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #d8d7d7;
+}
+.prices-room-modal-form-select {
+  width: 100%;
+  background-color: transparent;
+  border: 0.8px solid rgba(247, 247, 247, 0.2);
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  padding-bottom: 18px;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: var(--main-white-color);
+}
+.reservation-submit-btn {
+  align-self: center;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: var(--main-white-color);
+  padding: 14px 48px;
+  border: 0.8px solid var(--main-white-color);
+  border-radius: 32px;
+  margin-top: 40px;
+  transition: background-color var(--cubic-bezier), color var(--cubic-bezier),
+    border-color var(--cubic-bezier);
+}
+
+.reservation-submit-btn:is(:hover, :focus) {
+  color: var(--main-black-color);
+  background-color: var(--main-white-color);
+  border-color: var(--main-white-color);
+}
+
+@media screen and (min-width: 768px) {
+  .prices-room-modal {
+    min-width: 628px;
+    min-height: 476px;
+    padding-top: 32px;
+    padding-right: 32px;
+    padding-bottom: 60px;
+    padding-left: 32px;
+  }
+  .prices-room-modal-close-btn {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+  }
+  .prices-room-modal-title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.11;
+    margin-bottom: 60px;
+  }
+  .prices-room-modal-form {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 32px;
+    justify-content: center;
+  }
+  .prices-room-modal-form-fieled {
+    flex-basis: calc((100% - 32px) / 2);
+  }
+  .prices-room-modal-form-fieled:not(:last-child) {
+    margin-bottom: 40px;
+  }
+  .prices-room-modal-form-input {
+    min-width: 266px;
+  }
+  .reservation-submit-btn {
+    font-size: 18px;
+    line-height: 1.33;
+    padding: 14px 134px;
+    margin-top: 80px;
+  }
+}

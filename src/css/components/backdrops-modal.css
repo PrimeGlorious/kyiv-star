@@ -1,0 +1,28 @@
+.backdrop-main,
+.backdrop-main-second,
+.backdrop-hotel,
+.backdrop-hotel-second,
+.backdrop-restaurant,
+.backdrop-room,
+.backdrop-room-second {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility var(--cubic-bezier), opacity var(--cubic-bezier);
+}
+.backdrop-main.is-hidden,
+.backdrop-main-second.is-hidden,
+.backdrop-hotel.is-hidden,
+.backdrop-hotel-second.is-hidden,
+.backdrop-restaurant.is-hidden,
+.backdrop-room.is-hidden,
+.backdrop-room-second.is-hidden {
+  visibility: visible;
+  opacity: 1;
+  position: fixed;
+  z-index: 1001;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(46, 47, 66, 0.4);
+}

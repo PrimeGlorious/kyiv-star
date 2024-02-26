@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- fonts -->
+    <link href="" rel="stylesheet" />
+
+    <!-- normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+
+    <!-- main styles -->
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- favicon -->
+    <link rel="icon" type="image/svg+xml" href="./public/favicon-mimino.svg" />
+
+    <title>Mimino</title>
+  </head>
+  <body class="room">
+    <load src="partials/header.html" />
+
+    <main>
+      <load src="partials/pages/room-page/hero-room.html" />
+      <load src="partials/pages/room-page/amenities.html" />
+    </main>
+    <load src="partials/footer.html" />
+
+    <!-- modal room-page -->
+
+    <div class="backdrop-room-second" data-room-modal>
+      <load src="partials/book-room-modal.html" />
+    </div>
+    <div class="backdrop-room" data-room-modal-prices>
+      <load src="partials/prices-room-modal.html" />
+    </div>
+
+    <!-- room js -->
+    <script type="module" src="/room.js"></script>
+  </body>
+</html>
+
