@@ -1,11 +1,11 @@
 {
-  "name": "some-test",
+  "name": "kyiv-star",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/some-test/",
+    "build": "vite build --base=/kyiv-star/",
     "preview": "vite preview"
   },
   "devDependencies": {

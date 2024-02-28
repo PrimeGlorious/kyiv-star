@@ -125,3 +125,104 @@
     margin-bottom: 40px;
   }
 }
+
+._content__NoMLk {
+  width: calc(var(--cell) * 5 + var(--cello) * 5);
+  margin-right: 48px;
+}
+._content__NoMLk {
+  flex-shrink: 0;
+}
+._page_title__Qeq2S {
+  font-size: 48px !important;
+  line-height: 56px !important;
+  font-weight: 700 !important;
+  margin-bottom: 32px !important;
+  text-align: left !important;
+}
+._m__CjUI0 {
+  font-size: 32px;
+  line-height: 1.25;
+}
+._title__rgXVV {
+  margin: 0;
+  font-weight: 700;
+  font-feature-settings: 'ss01' on, 'ss08' on;
+}
+._m__9jYJu {
+  font-size: 16px;
+}
+._paragraph__dPgLE {
+  width: 400px;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  line-height: 1.5;
+}
+._buttons_wrapper__G82yS {
+  margin-top: 48px;
+  display: flex;
+  gap: 16px;
+}
+._button_scroll_wrapper__G50wc {
+  display: flex;
+  align-items: center;
+}
+._button_scroll_wrapper__G50wc {
+  display: flex;
+  align-items: center;
+}
+._button__X3Va5[class*='style-blank'] {
+  --bg: #0000;
+  --color: #0087e6;
+  --bd: #96c8ff;
+  border-width: 2px;
+}
+._button__hFYQD {
+  display: flex;
+  align-items: center;
+}
+._button__X3Va5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  text-align: center;
+  height: 56px;
+  border-radius: 28px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0 15px;
+  box-sizing: border-box;
+  cursor: pointer;
+  color: var(--color);
+  background: var(--bg);
+  border: 1px solid var(--bd, #0000);
+  line-height: 1;
+}
+._button__X3Va5[class*='style-1'] {
+  --bg: #0087e6;
+  --color: #fff;
+}
+._button__hFYQD {
+  display: flex;
+  align-items: center;
+}
+._button__X3Va5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  text-align: center;
+  height: 56px;
+  border-radius: 28px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0 15px;
+  box-sizing: border-box;
+  cursor: pointer;
+  color: var(--color);
+  background: var(--bg);
+  border: 1px solid var(--bd, #0000);
+  line-height: 1;
+}

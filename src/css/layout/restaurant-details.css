@@ -5,6 +5,7 @@
 
 .restaurants-details-wrap {
   display: flex;
+  flex-direction: column;
   gap: 24px;
   margin-bottom: 32px;
 }
@@ -17,7 +18,7 @@
   color: var(--main-black-color);
 }
 .restaurants-details-text {
-  max-width: 221px;
+  max-width: 600px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
@@ -27,10 +28,12 @@
 
 .restaurants-details-img-list {
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .restaurants-details-img-item:not(:last-child) {
-  margin-right: 20px;
+  margin-bottom: 50px;
 }
 
 .restaurants-details-img-item.desctop {
@@ -79,7 +82,6 @@
   .restaurants-details-wrap {
     gap: 32px;
     margin-bottom: 80px;
-    align-items: center;
   }
   .restaurants-details-img-item:not(:last-child) {
     margin-right: 32px;

@@ -111,6 +111,13 @@
   fill: var(--main-black-color);
 }
 
+.header-logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .header-logo-link,
 .menu-logo-link {
   margin-left: auto;
@@ -124,9 +131,8 @@
   transition: scale var(--cubic-bezier);
 }
 
-.header-logo-link > span,
+.header-logo-link span,
 .menu-logo-link > span {
-  margin: 0 auto 3px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.57;
